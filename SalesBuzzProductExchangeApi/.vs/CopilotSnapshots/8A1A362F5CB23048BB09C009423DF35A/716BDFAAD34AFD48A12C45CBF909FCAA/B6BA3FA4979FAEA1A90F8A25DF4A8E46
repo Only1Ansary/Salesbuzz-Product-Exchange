@@ -1,0 +1,15 @@
+﻿using Microsoft.EntityFrameworkCore;
+using ProductExchange.Api.Models;
+using SalesBuzz.Shared.Data;
+using SalesBuzzProductExchangeApi.Models;
+
+namespace SalesBuzzProductExchangeApi.Data
+{
+    public class ProductExchangeDbContext : SalesBuzzDbContextBase
+    {
+        public ProductExchangeDbContext(DbContextOptions options, ICurrentBUContext buContext)
+            : base(options, buContext) { }
+
+        public DbSet<ProductExchangeOrder> ProductExchangeOrders { get; set; }
+    }
+}
