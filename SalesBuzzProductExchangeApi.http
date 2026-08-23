@@ -1,6 +1,0 @@
-@SalesBuzzProductExchangeApi_HostAddress = http://localhost:5115
-
-GET {{SalesBuzzProductExchangeApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
