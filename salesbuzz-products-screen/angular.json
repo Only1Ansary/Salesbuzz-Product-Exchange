@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "salesbuzz-product-exchange": {
+    "salesbuzz-products-screen": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -30,7 +30,7 @@
               }
             ],
             "styles": [
-              "src/styles/bi-theme.css",
+              "node_modules/bi-modules/styles/bi-theme.css",
               "src/styles.css"
             ]
           },
@@ -62,10 +62,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "salesbuzz-product-exchange:build:production"
+              "buildTarget": "salesbuzz-products-screen:build:production"
             },
             "development": {
-              "buildTarget": "salesbuzz-product-exchange:build:development"
+              "buildTarget": "salesbuzz-products-screen:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -85,9 +85,15 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/bi-modules/assets",
+                "output": "assets"
               }
             ],
             "styles": [
+              "node_modules/bi-modules/styles/bi-theme.css",
               "src/styles.css"
             ]
           }

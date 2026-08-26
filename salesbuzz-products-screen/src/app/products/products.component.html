@@ -1,0 +1,40 @@
+<BI-Nav
+  [BIGrid]="grid"
+  [PageTitle]="'Products'"
+  [RowTitle]="rowTitle"
+  [CanInsert]="true"
+  [CanUpdate]="true"
+  [CanDelete]="true"
+  [CanSave]="true"
+  [CanViewAttachments]="true"
+  [CanAddAttachments]="true"
+  [CanDeleteAttachments]="true"
+  [CanPrint]="false"
+  [deleteConfirmMsg]="true"
+  [navButtons]="{}"
+  (ActionClicked)="onActionClicked($event)">
+</BI-Nav>
+
+<mat-tab-group>
+  <mat-tab label="Overview">
+    <BI-Grid
+      #grid
+      [DataService]="dataService"
+      [Columns]="columns"
+      [changeSet]="changeSet"
+      GridName="ProductsGrid"
+      DomID="productsGridDom"
+      [HasPaging]="true"
+      (OnLoadData)="onLoadData($event)"
+      (AfterSave)="afterSave($event)"
+      (AfterAdd)="afterAdd($event)"
+      (RowChange)="onRowChange($event)"
+      (CellClick)="onCellClick($event)">
+    </BI-Grid>
+  </mat-tab>
+  <mat-tab label="General">
+    <div class="general-tab-placeholder">
+      <p>General tab content (placeholder for additional per-record settings)</p>
+    </div>
+  </mat-tab>
+</mat-tab-group>

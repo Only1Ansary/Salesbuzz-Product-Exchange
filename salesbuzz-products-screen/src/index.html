@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SalesbuzzProductsScreen</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <script>
+    window.$localize = function (parts) {
+      var result = '';
+      for (var i = 0; i < parts.length; i++) {
+        result += parts[i];
+        if (i + 1 < arguments.length) {
+          result += arguments[i + 1];
+        }
+      }
+      return result;
+    };
+  </script>
+  <app-root></app-root>
+</body>
+
+</html>

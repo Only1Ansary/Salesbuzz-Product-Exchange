@@ -1,0 +1,8 @@
+:host {
+  display: block;
+}
+
+.general-tab-placeholder {
+  padding: 24px;
+  color: #666;
+}

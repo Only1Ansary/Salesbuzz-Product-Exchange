@@ -2,6 +2,17 @@ import { IColumns, DataTypes, ControlTypes } from 'bi-interfaces';
 
 export const productColumns: IColumns[] = [
   {
+    DomID: undefined,
+    Name: 'ProductID',
+    DisplayName: 'Product ID',
+    DataType: DataTypes.NUMERIC,
+    IsEditable: false,
+    IsFilterable: true,
+    IsVisible: true,
+    Width: 120
+  },
+  {
+    DomID: undefined,
     Name: 'ProductName',
     DisplayName: 'Product Name',
     DataType: DataTypes.Text,
@@ -9,9 +20,10 @@ export const productColumns: IColumns[] = [
     IsFilterable: true,
     IsVisible: true,
     controlType: ControlTypes.Text,
-    Width: 200
-  } as IColumns,
+    Width: 300
+  },
   {
+    DomID: undefined,
     Name: 'Price',
     DisplayName: 'Price',
     DataType: DataTypes.NUMERIC,
@@ -19,6 +31,7 @@ export const productColumns: IColumns[] = [
     IsFilterable: true,
     IsVisible: true,
     controlType: ControlTypes.Number,
-    Width: 100
-  } as IColumns
+    Precision: 2,
+    Width: 150
+  }
 ];

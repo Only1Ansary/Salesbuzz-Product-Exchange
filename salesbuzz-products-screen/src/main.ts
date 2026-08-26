@@ -2,9 +2,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
 import { App } from './app/app';
 
-if (!localStorage.getItem('lang')) {
-  localStorage.setItem('lang', 'en');
-}
-
+console.log('[DEBUG] main.ts executing');
 bootstrapApplication(App, appConfig)
-  .catch((err) => console.error(err));
+  .then(() => console.log('[DEBUG] App bootstrapped successfully'))
+  .catch((err) => console.error('[DEBUG] Bootstrap error:', err));
