@@ -1,5 +1,5 @@
 <div class="d-flex">
-  <Bi-Sidebar [items]="menuItems"></Bi-Sidebar>
+  <Bi-Sidebar *ngIf="!isLoginPage" [items]="menuItems"></Bi-Sidebar>
   <div class="flex-grow-1">
     <router-outlet></router-outlet>
   </div>
