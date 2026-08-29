@@ -25,6 +25,11 @@
               },
               {
                 "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "**/*",
                 "input": "node_modules/bi-modules/assets",
                 "output": "assets"
               }
@@ -85,6 +90,11 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
               },
               {
                 "glob": "**/*",
