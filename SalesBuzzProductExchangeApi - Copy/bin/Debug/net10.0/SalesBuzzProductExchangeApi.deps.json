@@ -9,10 +9,13 @@
       "SalesBuzzProductExchangeApi/1.0.0": {
         "dependencies": {
           "BI-SDK": "0.2.0",
+          "Microsoft.AspNetCore.OData": "8.2.4",
           "Microsoft.AspNetCore.OpenApi": "10.0.11",
           "Microsoft.EntityFrameworkCore": "10.0.11",
           "Microsoft.EntityFrameworkCore.Design": "10.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.11",
+          "Microsoft.OData.Core": "7.20.0",
+          "Microsoft.OData.Edm": "7.20.0",
           "Swashbuckle.AspNetCore": "10.2.3",
           "System.Linq.Dynamic.Core": "1.7.3"
         },

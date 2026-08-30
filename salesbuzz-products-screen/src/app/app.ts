@@ -4,6 +4,7 @@ import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { BIModulesModule } from 'bi-modules';
 import { IMenuItem } from 'bi-interfaces';
+import { ProductDataService } from './products/product-data.service';
 
 @Component({
   selector: 'app-root',
@@ -17,10 +18,24 @@ export class App {
   menuItems: IMenuItem[] = [
     { text: 'Products', icon: 'assets/icons/InventoryManagement.svg', path: '/products' }
   ];
+  
+  navIcons = [
+    { icon: 'node_modules/bi-modules/assets/icons/notifications_black_24dp.svg'},
+    { icon: 'node_modules/bi-modules/assets/icons/account_circle_black_24dp.svg'}
+  ];
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private dataService: ProductDataService) {
     this.router.events.pipe(filter((e) => e instanceof NavigationEnd)).subscribe(() => {
       this.isLoginPage = this.router.url.startsWith('/login');
     });
+  }
+
+  get username(): string {
+    return localStorage.getItem(this.dataService.USER_KEY) || 'User';
+  }
+
+  logout(): void {
+    this.dataService.clearAuth();
+    this.router.navigate(['/login']);
   }
 }

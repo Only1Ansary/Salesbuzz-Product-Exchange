@@ -1,6 +1,16 @@
 <div class="d-flex">
   <Bi-Sidebar *ngIf="!isLoginPage" [items]="menuItems"></Bi-Sidebar>
   <div class="flex-grow-1">
+    <bi-top-nav 
+      *ngIf="!isLoginPage"
+      (Icons.bell)="navIcons[0]"
+      (Icons.profile)="navIcons[1]"
+      (notifications.text) = "0"
+      [username]="username"
+      (showNotifications)="true"
+      (showProfile)="true"
+      (logoutClicked)="logout()">
+    </bi-top-nav>
     <router-outlet></router-outlet>
   </div>
 </div>

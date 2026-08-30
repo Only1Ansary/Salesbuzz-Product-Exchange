@@ -4706,10 +4706,13 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "BI-SDK >= 0.2.0",
+      "Microsoft.AspNetCore.OData >= 8.2.4",
       "Microsoft.AspNetCore.OpenApi >= 10.0.11",
       "Microsoft.EntityFrameworkCore >= 10.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.11",
+      "Microsoft.OData.Core >= 7.20.0",
+      "Microsoft.OData.Edm >= 7.20.0",
       "Swashbuckle.AspNetCore >= 10.2.3",
       "System.Linq.Dynamic.Core >= 1.7.3"
     ]
@@ -4771,6 +4774,10 @@
             "target": "Package",
             "version": "[0.2.0, )"
           },
+          "Microsoft.AspNetCore.OData": {
+            "target": "Package",
+            "version": "[8.2.4, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[10.0.11, )"
@@ -4788,6 +4795,14 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[10.0.11, )"
+          },
+          "Microsoft.OData.Core": {
+            "target": "Package",
+            "version": "[7.20.0, )"
+          },
+          "Microsoft.OData.Edm": {
+            "target": "Package",
+            "version": "[7.20.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
