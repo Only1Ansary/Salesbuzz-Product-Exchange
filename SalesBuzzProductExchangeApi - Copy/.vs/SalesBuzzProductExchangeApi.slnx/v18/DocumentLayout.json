@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Github\\Salesbuzz-Product-Exchange\\SalesBuzzProductExchangeApi - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56E0B677-F918-AE25-9098-882580A21535}|SalesBuzzProductExchangeApi.csproj|c:\\users\\pc\\desktop\\github\\salesbuzz-product-exchange\\salesbuzzproductexchangeapi - copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E0B677-F918-AE25-9098-882580A21535}|SalesBuzzProductExchangeApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56E0B677-F918-AE25-9098-882580A21535}|SalesBuzzProductExchangeApi.csproj|c:\\users\\pc\\desktop\\github\\salesbuzz-product-exchange\\salesbuzzproductexchangeapi - copy\\controllers\\productexchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E0B677-F918-AE25-9098-882580A21535}|SalesBuzzProductExchangeApi.csproj|solutionrelative:controllers\\productexchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56E0B677-F918-AE25-9098-882580A21535}|SalesBuzzProductExchangeApi.csproj|c:\\users\\pc\\desktop\\github\\salesbuzz-product-exchange\\salesbuzzproductexchangeapi - copy\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56E0B677-F918-AE25-9098-882580A21535}|SalesBuzzProductExchangeApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56E0B677-F918-AE25-9098-882580A21535}|SalesBuzzProductExchangeApi.csproj|c:\\users\\pc\\desktop\\github\\salesbuzz-product-exchange\\salesbuzzproductexchangeapi - copy\\controllers\\productexchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E0B677-F918-AE25-9098-882580A21535}|SalesBuzzProductExchangeApi.csproj|solutionrelative:controllers\\productexchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56E0B677-F918-AE25-9098-882580A21535}|SalesBuzzProductExchangeApi.csproj|c:\\users\\pc\\desktop\\github\\salesbuzz-product-exchange\\salesbuzzproductexchangeapi - copy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -43,31 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Github\\Salesbuzz-Product-Exchange\\SalesBuzzProductExchangeApi - Copy\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Github\\Salesbuzz-Product-Exchange\\SalesBuzzProductExchangeApi - Copy\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAE4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T00:22:04.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ProductExchangeController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Github\\Salesbuzz-Product-Exchange\\SalesBuzzProductExchangeApi - Copy\\Controllers\\ProductExchangeController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductExchangeController.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Github\\Salesbuzz-Product-Exchange\\SalesBuzzProductExchangeApi - Copy\\Controllers\\ProductExchangeController.cs",
               "RelativeToolTip": "Controllers\\ProductExchangeController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswD0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T00:15:31.68Z"
+              "WhenOpened": "2026-08-27T00:15:31.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Github\\Salesbuzz-Product-Exchange\\SalesBuzzProductExchangeApi - Copy\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

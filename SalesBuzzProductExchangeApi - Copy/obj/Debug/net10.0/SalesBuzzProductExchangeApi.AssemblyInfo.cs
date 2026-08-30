@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SalesBuzzProductExchangeApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c19d14163c163debe8f5fb9b5ec59757d61ef78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+190b6dddb988e9138134934ccb2ac7a20979d25e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SalesBuzzProductExchangeApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SalesBuzzProductExchangeApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
